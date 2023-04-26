@@ -6,7 +6,7 @@ This application was developed using React, Bootstrap, and Babel during the 2022
 
 ## How to Run
 
-<a href="https://kayla-guimontbankingapplication.s3.us-east-2.amazonaws.com/index.html#/alldata/">Give it a try!</a>
+<a href="https://kayla-guimontbankingapplication.s3.us-east-2.amazonaws.com/index.html#/">Give it a try!</a>
 
 ## Future Improvements
 
