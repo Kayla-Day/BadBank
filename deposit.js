@@ -16,7 +16,7 @@ function Deposit() {
       setTimeout(() => setStatus(""), 3000);
       return false;
     }
-    if (isNaN(deposit)) {
+    if (/\D/.test(deposit)) {
       setStatus("Input is not a number. Please try again.");
       setTimeout(() => setStatus(""), 3000);
       return false;

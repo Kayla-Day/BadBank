@@ -11,14 +11,20 @@ function Card(props) {
   }
 
   return (
-    <div className={classes()} style={{ maxWidth: "18rem" }}>
-      <div className="text-center">
-        <div className="card-header">{props.header}</div>
-        <div className="card-body">
-          {props.title && <h5 className="card-title">{props.title}</h5>}
-          {props.text && <p className="card-text">{props.text}</p>}
-          {props.body}
-          {props.status && <div id="createStatus">{props.status}</div>}
+    <div className="container mx-auto">
+      <div className="row mt-3 mb-5">
+        <div className="col d-flex justify-content-center">
+          <div className={classes()} style={{ maxWidth: "20rem" }}>
+            <div className="text-center">
+              <div className="card-header">{props.header}</div>
+              <div className="card-body">
+                {props.title && <h5 className="card-title">{props.title}</h5>}
+                {props.text && <p className="card-text">{props.text}</p>}
+                {props.body}
+                {props.status && <div id="createStatus">{props.status}</div>}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

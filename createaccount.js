@@ -79,7 +79,7 @@ function CreateAccount() {
             <button
               type="submit"
               className="btn btn-light"
-              disabled={!name || !email || !password}
+              disabled={!password}
               onClick={handleCreate}
             >
               Create Account

@@ -18,7 +18,7 @@ function Withdraw() {
       setTimeout(() => setStatus(""), 3000);
       return false;
     }
-    if (isNaN(withdraw)) {
+    if (/\D/.test(withdraw)) {
       setStatus("Input is not a number. Please try again.");
       setTimeout(() => setStatus(""), 3000);
       return false;
