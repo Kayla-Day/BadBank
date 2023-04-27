@@ -57,6 +57,7 @@ function Withdraw() {
             <br />
             <input
               type="input"
+              autocomplete="off"
               className="form-control"
               id="withdraw"
               placeholder="Amount"

@@ -50,6 +50,7 @@ function Deposit() {
             <br />
             <input
               type="input"
+              autocomplete="off"
               className="form-control"
               id="deposit"
               placeholder="Amount"

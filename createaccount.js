@@ -47,6 +47,7 @@ function CreateAccount() {
             <br />
             <input
               type="input"
+              autocomplete="off"
               className="form-control"
               id="name"
               placeholder="Enter name"
@@ -58,6 +59,7 @@ function CreateAccount() {
             <br />
             <input
               type="input"
+              autocomplete="off"
               className="form-control"
               id="email"
               placeholder="Enter email"
